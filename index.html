@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Creando formularios</title>
+</head>
+<body>
+    <form action="">
+
+        <label for="Turno">Elija su turno de cursada: </label>
+
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombreCompleto" placeholder="Escriba nombre completo...">
+
+        <br><br>
+
+        <label for="email">Escriba su email</label>
+        <input type="email" placeholder="Escriba su mail con @...">
+
+        <br><br>
+        
+        <label for="turno">Turno Mañana</label>
+        <input type="radio" id="turnoM" name="turno" value="mañana">
+
+        <label for="turno">Turno Tarde</label>
+        <input type="radio" id="turnoT" name="turno" value="tarde">
+
+        <label for="turno">Turno Noche</label>
+        <input type="radio" id="turnoN" name="turno" value="noche">
+        <br><br>
+
+        <label for="diplomatura">Indique a que cursos se anota: </label>
+
+        <label for="PWI">Prog.Web.Inicial</label>
+        <input type="checkbox" name="cursos" value="Prog.Web.Inicial">
+
+        <label for="PWA">Prog.Web.Avanzado</label>
+        <input type="checkbox" name="cursos" value="Prog.Web.Avanzado">
+
+        <br><br>
+
+        <label for="level">Elija el nivel de conocimiento: </label>
+        <select name="nivel" id="level">
+            <option value="inicial">Inicial</option>
+            <option value="intermedio">Intermedio</option>
+            <option value="avanzado">Avanzado</option>
+           
+
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+
+
+    </form>
+</body>
+</html>
